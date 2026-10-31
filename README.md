@@ -2,6 +2,10 @@
 
 A browser-based recreation of the classic Pong arcade game, built using vanilla JavaScript and HTML Canvas.
 
+## Live Demo
+
+[Play Pong](https://abidali06.github.io/pong-game/)
+
 ## Screenshots
 
 ### Main Menu
