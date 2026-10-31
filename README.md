@@ -2,6 +2,17 @@
 
 A browser-based recreation of the classic Pong arcade game, built using vanilla JavaScript and HTML Canvas.
 
+## Screenshots
+
+### Main Menu
+![Main Menu](screenshots/main-menu.png)
+
+### Gameplay
+![Gameplay](screenshots/gameplay.png)
+
+### Difficulty Selection
+![Difficulty Selection](screenshots/difficulty-selection.png)
+
 ## Features
 
 - **Two game modes:** Play against an AI opponent or challenge another player locally.
