@@ -25,7 +25,7 @@ A browser-based recreation of the classic Pong arcade game, built using vanilla 
 ## Controls
 
 ### Player 1
-- `Arrow Up` / `Arrow Down` — Move paddle
+- `Arrow Right` / `Arrow Left` — Move paddle
 
 ### Player 2 (Local Multiplayer)
 - `W` / `S` — Move paddle
