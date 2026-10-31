@@ -1,0 +1,74 @@
+<!doctype html>
+<html>
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Pong</title>
+  </head>
+  <body>
+    <main id="game">
+      <div id="start-screen" class="game-overlay">
+        <div class="start-panel">
+          <p class="eyebrow">ARCADE MODE</p>
+          <h1>PONG<span>_</span></h1>
+          <p class="start-description">
+            Two players. One ball. First to 10 wins.
+          </p>
+          <div class="player-controls">
+            <div class="player-card player-left">
+              <p class="player-label">PLAYER 2 / COMPUTER</p>
+              <h2>LEFT SIDE</h2>
+              <div class="key-group">
+                <kbd>W</kbd>
+                <kbd>S</kbd>
+              </div>
+              <p class="control-hint">Move paddle up / down in local mode</p>
+            </div>
+            <div class="player-card player-right">
+              <p class="player-label">PLAYER 1</p>
+              <h2>RIGHT SIDE</h2>
+              <div class="key-group">
+                <kbd>←</kbd>
+                <kbd>→</kbd>
+              </div>
+              <p class="control-hint">Move paddle up / down</p>
+            </div>
+          </div>
+          <button id="local" class="play-button">
+            LOCAL MULTIPLAYER <span>▶</span>
+          </button>
+          <button id="comp" class="play-button">
+            PLAY AGAINST COMPUTER <span>▶</span>
+          </button>
+          <p class="start-footer">GET READY TO COMPETE</p>
+        </div>
+      </div>
+      <div id="diff-screen" class="game-overlay hidden">
+        CHOOSE DIFFICULTY:
+        <button id="easy" class="play-button">EASY</button>
+        <button id="medium" class="play-button">MEDIUM</button>
+        <button id="hard" class="play-button">HARD</button>
+        <button id="impossible" class="play-button">IMPOSSIBLE</button>
+        <button id="flash" class="play-button">FLASH</button>
+      </div>
+      <div id="score">Score 0 : 0</div>
+      <button id="pause-button" type="button">PAUSE</button>
+      <canvas id="gameCanvas"></canvas>
+      <div id="game-over" class="game-over hidden">
+        <div class="game-over-card">
+          <p class="game-over-label">MATCH COMPLETE</p>
+          <h1 id="game-over-title">GAME OVER</h1>
+          <p id="game-over-message">Player 1 wins!</p>
+          <button id="restart-button" type="button">PLAY AGAIN</button>
+          <button id="menu-button" type="button">MAIN MENU</button>
+        </div>
+      </div>
+    </main>
+    <script type="module" src="./game.js"></script>
+  </body>
+</html>
