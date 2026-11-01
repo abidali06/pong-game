@@ -33,7 +33,7 @@ const menuButton = document.getElementById("menu-button");
 //==================OBJECTS========================
 const paddle1 = {
   length: 150,
-  x: gameCanvas.width - 100, //tope end point
+  x: gameCanvas.width - 100, //top end point
   y: gameCanvas.height / 2 - 75,
   thickness: 10,
   speed: 1000,
